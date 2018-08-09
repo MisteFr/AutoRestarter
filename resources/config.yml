@@ -1,0 +1,11 @@
+#Please provide the delay between each reboots in minutes here.
+#For exemple delay: 60 will reboot the server every hour.
+delay: 1
+
+#Leave to default the ip if you want to use your server IP.
+serverIp: default
+serverPort: 19132
+
+#Message broadcasted each 10 mins or each mins 3 mins before the reboot.
+#Be sure to keep the %value% word in your message because it will be replaced by the number of mins remaining before the next reboot.
+message: The server will reboot in %value% mins
