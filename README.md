@@ -52,3 +52,5 @@ use miste\autorestarter\AutoRestarter;
 
 AutoRestarter::restart($this->getServer());
 ```
+
+**NB**: You need pcntl extension to be enabled and compiled with PHP (by default on PM Linux binaries but not on Windows one).
